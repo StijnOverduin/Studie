@@ -7,5 +7,7 @@ public class Test2 {
 		public String getName(){
 			return null;
 		}
+	
+	public String hallo;
 
 }
