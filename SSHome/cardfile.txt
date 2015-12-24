@@ -1,0 +1,4 @@
+Clubs 3
+Clubs 4
+Hearts 3
+Hearts jack
