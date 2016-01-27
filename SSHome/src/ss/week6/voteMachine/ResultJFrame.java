@@ -1,4 +1,4 @@
-package ss.week6.voteMachine.gui;
+package ss.week6.voteMachine;
 
 import java.awt.Container;
 import java.awt.FlowLayout;

@@ -23,7 +23,7 @@ public class ArgumentExceptionTest {
 
     @Before
     public void setUp() {
-        wrongArgumentException = new WrongArgumentException();
+        wrongArgumentException = new WrongArgumentException("message");
     }
 
     /**

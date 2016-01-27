@@ -1,13 +1,14 @@
 package ss.week6.test;
 
-import org.junit.Before;
-import org.junit.Test;
-import ss.week6.dictionaryattack.DictionaryAttack;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.io.IOException;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import org.junit.Before;
+import org.junit.Test;
+
+import ss.week6.dictionaryAttack.DictionaryAttack;
 
 /**
  * Testprogram for DictionaryAttack.
@@ -21,7 +22,7 @@ public class DictionaryAttackTest {
     private DictionaryAttack dictionaryAttack;
 
     /** Path to the text file */
-    private static final String PATH = ""; //Your path to the test folder
+    private static final String PATH = "C:/SSHome/workspace/week6/src/dictionaryattack/"; //Your path to the test folder
 
     @Before
     public void setUp() {
